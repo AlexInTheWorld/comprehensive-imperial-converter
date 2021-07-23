@@ -11,64 +11,66 @@ html
     script(src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin)
     script(src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin)
   body
-    header
-      h1 Imperial Converter
+    article
+      header
+        h1 Imperial Converter
       main
         #app
-        aside
-          h2 Usage:
-          p Convert most used metric and imperial measure units.
-          p Currently accepted units are:
-          table
-            tr
-              th abbr
-              th corresp
-            tr
-              td km 
-              td kilometre
-            tr
-              td mi 
-              td mile
-            tr
-              td ft
-              td foot
-            tr
-              td m
-              td metre
-            tr
-              td cm 
-              td centimetre
-            tr
-              td in  
-              td inch
-            tr
-              td yd
-              td yard
-            tr
-              td ac
-              td acre
-            tr
-              td sqm
-              td square metre
-            tr
-              td pt
-              td pint
-            tr
-              td gal
-              td gallon
-            tr
-              td l
-              td litre
-            tr
-              td oz
-              td ounce
-            tr
-              td lb
-              td pound
-            tr 
-              td kg
-              td kilogram
-            tr
-              td g
-              td gram
+    hr
+    aside#usage
+      h2 Usage:
+      p Convert most used metric and imperial measure units.
+      p Currently accepted units are:
+      table
+        tr
+          th abbr
+          th corresp
+        tr
+          td km 
+          td kilometre
+        tr
+          td mi 
+          td mile
+        tr
+          td ft
+          td foot
+        tr
+          td m
+          td metre
+        tr
+          td cm 
+          td centimetre
+        tr
+          td in  
+          td inch
+        tr
+          td yd
+          td yard
+        tr
+          td ac
+          td acre
+        tr
+          td sqm
+          td square metre
+        tr
+          td pt
+          td pint
+        tr
+          td gal
+          td gallon
+        tr
+          td l
+          td litre
+        tr
+          td oz
+          td ounce
+        tr
+          td lb
+          td pound
+        tr 
+          td kg
+          td kilogram
+        tr
+          td g
+          td gram
     script(src='/script.js' type="text/babel")
